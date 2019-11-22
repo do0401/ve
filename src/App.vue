@@ -34,21 +34,23 @@
     </v-app-bar> -->
 
     <v-content>
-      <Diary />
+      <FileRename />
     </v-content>
   </v-app>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld'
-import Diary from './views/Diary'
+// import Diary from './views/Diary'
+import FileRename from './views/FileRename'
 
 export default {
   name: 'App',
 
   components: {
     // HelloWorld
-    Diary
+    // Diary
+    FileRename
   },
 
   data: () => ({
