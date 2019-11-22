@@ -34,7 +34,7 @@
     </v-app-bar> -->
 
     <v-content>
-      <FileRename />
+      <File2DB />
     </v-content>
   </v-app>
 </template>
@@ -42,7 +42,7 @@
 <script>
 // import HelloWorld from './components/HelloWorld'
 // import Diary from './views/Diary'
-import FileRename from './views/FileRename'
+import File2DB from './views/File2DB'
 
 export default {
   name: 'App',
@@ -50,7 +50,7 @@ export default {
   components: {
     // HelloWorld
     // Diary
-    FileRename
+    File2DB
   },
 
   data: () => ({
